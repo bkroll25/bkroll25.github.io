@@ -4,17 +4,26 @@
     background-color: #ffffff;
     overflow: hidden;
     text-align: center;
+
+    /* Border rules */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
     display : inline-block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
+    /* Border rules */
     border-left: 4px double #000000;
+    margin-right: -4px;
 }
 
 /* Remove the border from the first link */
