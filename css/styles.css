@@ -60,11 +60,11 @@ body.dark-mode {
 
 .navbar.dark-mode a:hover {
     background-color: #555555;
-    color: #ffffff;
+    color: #319fe8;
 }
 
 .navbar.dark-mode a.active {
-    background-color: #1a1a1a;
+    background-color: #182d3b;
     color: #ffffff;
 }
 
