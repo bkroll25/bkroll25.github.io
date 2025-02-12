@@ -80,11 +80,16 @@ body.dark-mode {
     position: relative;
 }
 
-.title .switch {
+.dark-mode-container {
     position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10px;
+    right: 10px;
+    text-align: center;
+}
+
+.dark-mode-container span {
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* Portfolio grid styles */
@@ -198,7 +203,7 @@ body.dark-mode {
 }
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #a200ff;
 }
 
 input:checked + .slider:before {
@@ -212,22 +217,4 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
-}
-
-/* Icon styling */
-.slider .icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    width: 26px;
-    text-align: center;
-}
-
-.slider .icon.sun {
-    right: 8px;
-}
-
-.slider .icon.moon {
-    left: 8px;
 }
