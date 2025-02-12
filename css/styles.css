@@ -33,7 +33,7 @@
 
 /* Style the links on hover */
 .navbar a:hover {
-    background-color: #D9D9D9;
+    background-color: #e0e0e0;
     color: #319fe8;
 }
   
@@ -45,7 +45,7 @@
 
 /* Dark mode styling */
 body.dark-mode {
-    background-color: #121212;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -104,7 +104,7 @@ body.dark-mode {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 40%;
+    padding-top: 50%;
     border: 1px solid #e0e0e0;
 }
 
@@ -185,7 +185,7 @@ body.dark-mode {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #e0e0e0;
     transition: .4s;
     border-radius: 34px;
 }
@@ -197,13 +197,13 @@ body.dark-mode {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #ffffff;
     transition: .4s;
     border-radius: 50%;
 }
 
 input:checked + .slider {
-    background-color: #a200ff;
+    background-color: #73018d;
 }
 
 input:checked + .slider:before {
