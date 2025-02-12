@@ -20,6 +20,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
     
     /* Border rules */
     border-left: 1px solid #e0e0e0;
@@ -71,6 +72,7 @@ body.dark-mode {
 /* Style the content sections */
 .content {
     padding: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -78,6 +80,7 @@ body.dark-mode {
     font-size: 24px;
     margin: 0;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dark-mode-container {
@@ -96,6 +99,7 @@ body.dark-mode {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dark-mode-container button:hover {
