@@ -134,7 +134,7 @@ body.dark-mode {
 }
 
 /* link styling */
-content a {
+.content a {
     color: #319fe8;
     text-decoration: none;
 }
@@ -143,11 +143,11 @@ content a {
     text-decoration: underline;
 }
 
-content a:visited {
+.content a:visited {
     color: #73018d;
 }
 
-content a:visited.dark-mode {
+.content a:visited.dark-mode {
     color: #d400ef;
 }
 
