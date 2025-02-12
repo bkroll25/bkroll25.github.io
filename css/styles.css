@@ -77,6 +77,14 @@ body.dark-mode {
     text-align: center;
     font-size: 24px;
     margin: 0;
+    position: relative;
+}
+
+.title .switch {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Portfolio grid styles */
@@ -217,9 +225,9 @@ input:checked + .slider:before {
 }
 
 .slider .icon.sun {
-    left: 8px;
+    right: 8px;
 }
 
 .slider .icon.moon {
-    right: 8px;
+    left: 8px;
 }
