@@ -134,19 +134,19 @@ body.dark-mode {
 }
 
 /* link styling */
-a {
+content a {
     color: #319fe8;
     text-decoration: none;
 }
 
-a:hover {
+.content a:hover {
     text-decoration: underline;
 }
 
-a:visited {
+content a:visited {
     color: #73018d;
 }
 
-a:visited.dark-mode {
+content a:visited.dark-mode {
     color: #d400ef;
 }
