@@ -205,3 +205,21 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+/* Icon styling */
+.slider .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    width: 26px;
+    text-align: center;
+}
+
+.slider .icon.sun {
+    left: 8px;
+}
+
+.slider .icon.moon {
+    right: 8px;
+}
