@@ -87,9 +87,19 @@ body.dark-mode {
     text-align: center;
 }
 
-.dark-mode-container span {
-    display: block;
-    margin-bottom: 5px;
+/* Style the dark mode button */
+.dark-mode-container button {
+    background-color: #284B63;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-container button:hover {
+    background-color: #14213D;
 }
 
 /* Portfolio grid styles */
@@ -164,57 +174,3 @@ body.dark-mode {
     color: #d400ef;
 }
 
-/* Switch styling */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #e0e0e0;
-    transition: .4s;
-    border-radius: 34px;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #ffffff;
-    transition: .4s;
-    border-radius: 50%;
-}
-
-input:checked + .slider {
-    background-color: #73018d;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
