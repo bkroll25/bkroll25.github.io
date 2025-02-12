@@ -91,7 +91,7 @@ body.dark-mode {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 75%;
+    padding-top: 40%;
     border: 1px solid #e0e0e0;
 }
 
@@ -148,5 +148,5 @@ a:visited {
 }
 
 a:visited.dark-mode {
-    color: #a900cf;
+    color: #d400ef;
 }
