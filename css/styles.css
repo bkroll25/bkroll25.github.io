@@ -132,3 +132,21 @@ body.dark-mode {
 .portfolio-item:hover .portfolio-subtitle {
     opacity: 1;
 }
+
+/* link styling */
+a {
+    color: #319fe8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #73018d;
+}
+
+a:visited.dark-mode {
+    color: #a900cf;
+}
