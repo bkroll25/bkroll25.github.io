@@ -43,6 +43,31 @@
     color: #ffffff;
 }
 
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navbar.dark-mode a {
+    color: #ffffff;
+}
+
+.navbar.dark-mode a:hover {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.navbar.dark-mode a.active {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
 /* Style the content sections */
 .content {
     padding: 20px;
