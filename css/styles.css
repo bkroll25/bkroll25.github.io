@@ -59,14 +59,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    border: 1px solid #d3d2d2;
+    border: 1px solid #e0e0e0;
 }
 
 .portfolio-item {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 75%;
     border: 1px solid #e0e0e0;
 }
 
